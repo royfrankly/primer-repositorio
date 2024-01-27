@@ -1,10 +1,11 @@
 #ifndef MULTIPLICAR_H
 #define MULTIPLICAR_H
 #include <iostream>
+#include "mostrar.h"
 using namespace std;
-void multiplicar(string des, int n){
+void multiplicar(mostrar obj, int n){
     for(int i=0; i<n; i++){
-        cout<<des<<endl;
+        obj.ver();
     }
 }
 
